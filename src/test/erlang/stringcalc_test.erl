@@ -32,3 +32,7 @@ empty_add_test() ->
   ?assertEqual(0, stringcalc:add("")).
 one_add_test() ->
   ?assertEqual(1, stringcalc:add("1")).
+two_add_test() ->
+  ?assertEqual(2, stringcalc:add("2")).
+one_and_two_add_test() ->
+  ?assertEqual(2, stringcalc:add("1,2")).
